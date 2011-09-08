@@ -1,0 +1,235 @@
+[begin] (Menu)
+[submenu] (Programy) <>
+ [submenu] (Biuro) <>
+  [submenu] (Więcej) <>
+      [exec] (Okular) {okular   -caption "Okular"} <>
+      [exec] (Xpdf) {/usr/bin/xpdf } <>
+  [end] # (Więcej)
+     [exec] (HomeBank) {homebank } <>
+     [exec] (OpenOffice.org) {ooffice3.2 } </usr/share/pixmaps/ooo-gulls3.2.png>
+     [exec] (OpenOffice.org Base) {oobase3.2 } </usr/share/pixmaps/ooo-base3.2.png>
+     [exec] (OpenOffice.org Calc) {oocalc3.2 } </usr/share/pixmaps/ooo-calc3.2.png>
+     [exec] (OpenOffice.org Draw) {oodraw3.2 } </usr/share/pixmaps/ooo-draw3.2.png>
+     [exec] (OpenOffice.org Impress) {ooimpress3.2 } </usr/share/pixmaps/ooo-impress3.2.png>
+     [exec] (OpenOffice.org Writer) {oowriter3.2 } </usr/share/pixmaps/ooo-writer3.2.png>
+     [exec] (Scribus) {scribus } <>
+     [exec] (Słownik) {gnome-dictionary} <>
+     [exec] (ePDFViewer) {epdfview } <>
+ [end] # (Biuro)
+ [submenu] (Dźwięk i obraz) <>
+  [submenu] (Więcej) <>
+      [exec] (Amarok) {amarok } <>
+      [exec] (Avidemux) {/usr/bin/avidemux2_qt4 } <>
+      [exec] (Kdenlive) {kdenlive  -caption "Kdenlive" } <>
+      [exec] (KsCD) {kscd -caption "KsCD" } <>
+      [exec] (Odtwarzacz Dragon Player) {dragon } <>
+      [exec] (Xmms) {soundwrapper xmms } <>
+  [end] # (Więcej)
+     [exec] (Codeina) {codeina} </usr/share/codeina/icons/codeina.png>
+     [exec] (Kontrola głośności PulseAudio) {pavucontrol} <>
+     [exec] (MPlayer Media Player) {soundwrapper gmplayer } <>
+     [exec] (Odtwarzacz filmów Totem) {totem } <>
+     [exec] (Rejestrator dźwięku) {gnome-sound-recorder} <>
+     [exec] (XCam) {/usr/bin/xcam} <>
+     [exec] (xine) {xine } </usr/share/pixmaps/xine.xpm>
+ [end] # (Dźwięk i obraz)
+ [submenu] (Grafika) <>
+  [submenu] (Więcej) <>
+      [exec] (Gwenview) {gwenview  -caption "Gwenview" } <>
+      [exec] (KolourPaint) {kolourpaint } <>
+      [exec] (Wybór koloru) {kcolorchooser} <>
+      [exec] (Zrzuty ekranu) {ksnapshot -caption "KSnapshot"} <>
+  [end] # (Więcej)
+     [exec] (GIMP) {gimp-2.6 } <>
+     [exec] (GQview) {gqview -r } </usr/share/pixmaps/gqview.png>
+     [exec] (XScanImage) {/usr/bin/xscanimage} <>
+ [end] # (Grafika)
+ [submenu] (Gry) <>
+  [submenu] (Gry zręcznościowe) <>
+      [exec] (Bomber) {bomber -caption "Bomber"} <>
+      [exec] (Granatier) {granatier} <>
+      [exec] (KBlocks) {kblocks -caption "KBlocks"} <>
+      [exec] (KBounce) {kbounce -caption "KBounce"} <>
+      [exec] (KBreakOut) {kbreakout -caption "KBreakOut"} <>
+      [exec] (KGoldrunner) {kgoldrunner} <>
+      [exec] (KSnake) {ktron -snake -caption "KSnake" } <>
+      [exec] (KSpaceDuel) {kspaceduel -caption "KSpaceDuel"} <>
+      [exec] (KTron) {ktron -caption "KTron" } <>
+      [exec] (Kapman) {kapman} <>
+      [exec] (Kolf) {kolf } <>
+      [exec] (Kollision) {kollision} <>
+  [end] # (Gry zręcznościowe)
+  [submenu] (Inne) <>
+      [exec] (Ziemniaczany facet) {ktuberling -caption "Potato Guy" } <>
+  [end] # (Inne)
+  [submenu] (Karty) <>
+      [exec] (LSkat) {lskat} <>
+      [exec] (Pasjans) {kpat -caption "KPatience"} <>
+  [end] # (Karty)
+  [submenu] (Planszowe) <>
+      [exec] (Bovo) {bovo -caption "Bovo"} <>
+      [exec] (Czarna skrzynka) {kblackbox -caption "KBlackBox"} <>
+      [exec] (Cztery w linii) {kfourinline} <>
+      [exec] (Kigo) {kigo  -caption "Kigo"} <>
+      [exec] (Kiriki) {kiriki -caption "Kiriki"} <>
+      [exec] (Kwadraty) {ksquares  -caption "KSquares"} <>
+      [exec] (Mahjongg) {kmahjongg -caption "KMahjongg"} <>
+      [exec] (Reversi) {kreversi -caption "KReversi"} <>
+      [exec] (Shisen-Sho) {kshisen -caption "Shisen-Sho"} <>
+  [end] # (Planszowe)
+  [submenu] (Puzzle) <>
+      [exec] (KDiamond) {kdiamond -caption "KDiamond"} <>
+      [exec] (KSudoku) {ksudoku  -caption "KSudoku"} <>
+      [exec] (Kubrick) {kubrick} <>
+      [exec] (Palapeli) {palapeli} <>
+  [end] # (Puzzle)
+  [submenu] (Sporty) <>
+      [exec] (CannonSmash) {/usr/bin/csmash} <>
+  [end] # (Sporty)
+  [submenu] (Strategia) <>
+      [exec] (Atomy) {katomic -caption "KAtomic"} <>
+      [exec] (Domyślny skaczący sześcian) {kjumpingcube -caption "KJumpingCube"} <>
+      [exec] (Edytor motywów KsirK) {ksirkskineditor -caption "KsirK Skin Editor" } <>
+      [exec] (KBattleship) {kbattleship -caption "KBattleship" } <>
+      [exec] (KNetWalk) {knetwalk -caption "KNetWalk"} <>
+      [exec] (Killbots) {killbots -caption "Killbots"} <>
+      [exec] (Kolorowe linie) {klines -caption "Kolor Lines"} <>
+      [exec] (Konquest) {konquest -caption Konquest} <>
+      [exec] (KsirK) {ksirk -caption "KsirK" } <>
+      [exec] (Miny) {kmines -caption "KMines"} <>
+      [exec] (ToSamo) {ksame -caption "SameGame"} <>
+  [end] # (Strategia)
+  [submenu] (Zabawa) <>
+      [exec] (WeatherBug) {weatherbug} </usr/share/pixmaps/WeatherBug.xpm>
+  [end] # (Zabawa)
+ [end] # (Gry)
+ [submenu] (Internet) <>
+  [submenu] (Więcej) <>
+      [exec] (Akregator) {akregator  -caption "Akregator"} <>
+      [exec] (KGet) {kget -caption "KGet"  } <>
+      [exec] (KMail) {kmail -caption "KMail"} <>
+      [exec] (KNode) {knode -caption "KNode"} <>
+      [exec] (KPPP) {kppp} <>
+      [exec] (KRDC) {krdc -caption "KRDC" } <>
+      [exec] (KTorrent) {ktorrent  -caption "KTorrent" } <>
+      [exec] (Konqueror) {kfmclient openProfile webbrowsing} <>
+      [exec] (Kontact) {kontact} <>
+      [exec] (Konversation) {konversation -caption "Konversation" } <>
+      [exec] (Kopete) {kopete -caption "Kopete" } <>
+      [exec] (Krfb) {krfb -caption "Krfb" } <>
+      [exec] (Książka adresowa) {kaddressbook } <>
+      [exec] (Opera) {/usr/bin/opera } <>
+      [exec] (Organizator) {korganizer } <>
+      [exec] (kbluetooth) {kbluetooth} <>
+  [end] # (Więcej)
+     [exec] (Centrum sieciowe) {/usr/bin/draknetcenter} </usr/share/mcc/themes/default/netcenter.png>
+     [exec] (FileZilla) {filezilla} </usr/share/pixmaps/filezilla.png>
+     [exec] (Przeglądarka Chromium) {chromium-browser } <>
+     [exec] (Przeglądarka Firefox) {firefox } <>
+     [exec] (Skype) {skype} </usr/share/pixmaps/skype.png>
+     [exec] (Telefon Ekiga) {soundwrapper /usr/bin/ekiga} <>
+ [end] # (Internet)
+ [submenu] (Narzędzia) <>
+  [submenu] (Dostępność) <>
+      [exec] (Dasher) {dasher} <>
+      [exec] (KMag) {kmag -caption "KMag" } <>
+      [exec] (KMouseTool) {kmousetool -caption "KMouseTool" } <>
+      [exec] (KMouth) {kmouth -caption "KMouth" } <>
+      [exec] (kttsmgr) {kttsmgr -caption "kttsmgr"  } <>
+  [end] # (Dostępność)
+  [submenu] (Emulatory) <>
+   [submenu] (Wine) <>
+       [exec] (Command Line) {wineconsole cmd} <>
+       [exec] (Configurator) {winecfg} <>
+       [exec] (File Manager) {winefile} <>
+       [exec] (Minesweeper) {winemine} <>
+       [exec] (Notepad) {notepad} <>
+       [exec] (Reboot) {wineboot} <>
+       [exec] (Registry Editor) {regedit} <>
+       [exec] (Wine Software Uninstaller) {wine uninstaller} <>
+   [end] # (Wine)
+      [exec] (VirtualBox OSE) {/usr/bin/VirtualBox} <>
+  [end] # (Emulatory)
+  [submenu] (Narzędzia systemowe) <>
+      [exec] (Analizator wykorzystania dysku) {baobab} <>
+      [exec] (Centrum sieciowe) {/usr/bin/draknetcenter} </usr/share/mcc/themes/default/netcenter.png>
+      [exec] (Drukowanie) {system-config-printer} <>
+      [exec] (Konfiguracja komputera) {/usr/sbin/drakconf} <>
+      [exec] (Monitor systemu) {gnome-system-monitor} <>
+      [exec] (NetApplet) {/usr/bin/net_applet --force} </usr/share/libDrakX/pixmaps/connected.png>
+      [exec] (Opera Widget Manager) {/usr/bin/opera-widget-manager} <>
+      [exec] (Packages Stats) {/usr/sbin/drakstats} <>
+      [exec] (Preferencje PulseAudio) {paprefs} <>
+      [exec] (Przeglądarka dzienników systemowych) {gnome-system-log} <>
+      [exec] (Qsynaptics) {/usr/bin/qsynaptics } <>
+      [exec] (XCpuState) {/usr/bin/xcpustate } <>
+  [end] # (Narzędzia systemowe)
+  [submenu] (Więcej) <>
+      [exec] (Akonaditray) {akonaditray} <>
+      [exec] (Ark) {ark -caption "Ark" } <>
+      [exec] (Dolphin) {dolphin  -caption "Dolphin" } <>
+      [exec] (K3b) {k3b } <>
+      [exec] (KWrite) {kwrite } <>
+      [exec] (Kalkulator) {kcalc -caption "KCalc"} <>
+      [exec] (Kleopatra) {kleopatra} <>
+      [exec] (Nepomuk Ontology Importer) {ontologyimportclient } <>
+      [exec] (Notatki) {kjots -caption "KJots"} <>
+      [exec] (Notatki) {knotes} <>
+      [exec] (VI editor) {/usr/bin/gvim -f} <>
+      [exec] (Wybór znaków) {kcharselect -caption "KCharSelect"} <>
+  [end] # (Więcej)
+     [exec] (Eterm) { export LC_ALL=pl_PL.ISO-8859-2; Eterm} <>
+     [exec] (IcedTea Web Control Panel) {/usr/bin/itweb-settings} </usr/share/pixmaps/javaws.png>
+     [exec] (Java) {jcontrol} </usr/share/pixmaps/sun-jcontrol.png>
+     [exec] (Menedżer ustawień CompizConfig) {ccsm} <>
+     [exec] (Pobranie zrzutu ekranu) {gnome-screenshot --interactive} <>
+     [exec] (SCIM Input Method Setup) {scim-setup} </usr/share/pixmaps/scim-setup.png>
+     [exec] (Ustawienia regionalne) {/usr/bin/localedrake} <>
+     [exec] (WeatherBug) {weatherbug} </usr/share/pixmaps/WeatherBug.xpm>
+     [exec] (Wyszukaj pliki...) {gnome-search-tool} <>
+     [exec] (XTerm) {xterm -name Terminal} <>
+     [exec] (aterm) {aterm -name Terminal} <>
+ [end] # (Narzędzia)
+ [submenu] (Narzędzia programistów) <>
+  [submenu] (Bazy danych) <>
+      [exec] (pgAdmin III) {/usr/bin/pgadmin3} <>
+  [end] # (Bazy danych)
+  [submenu] (Narzędzia) <>
+      [exec] (TkCVS) {/usr/bin/tkcvs } <>
+      [exec] (TkDiff) {/usr/bin/tkdiff} <>
+  [end] # (Narzędzia)
+  [submenu] (Programowanie WWW) <>
+      [exec] (Bluefish Editor) {bluefish } </usr/share/pixmaps/bluefish.png>
+  [end] # (Programowanie WWW)
+  [submenu] (Środowiska programistyczne) <>
+      [exec] (Geany) {geany } <>
+  [end] # (Środowiska programistyczne)
+     [exec] (pgAdmin III) {/usr/bin/pgadmin3} <>
+ [end] # (Narzędzia programistów)
+ [submenu] (Nauka) <>
+  [submenu] (Matematyka) <>
+      [exec] (Gnuplot) {xterm -e /usr/bin/gnuplot} <>
+  [end] # (Matematyka)
+ [end] # (Nauka)
+    [exec] (Instalacja i usuwanie oprogramowania) {/usr/bin/rpmdrake} <>
+[end] # (Programy)
+[separator]
+[config] (Configuration)
+                [workspaces] (Workspace)
+                [submenu] (System Styles) {Choose a style...}
+                        [stylesdir] (/usr/share/blackbox/styles)
+			[stylesdir] (/usr/share/fluxbox/styles)
+			[stylesdir] (/usr/share/openbox/styles)
+                [end]
+                [submenu] (User Styles) {Choose a style...}
+                        [stylesdir] (~/.blackbox/styles)
+			[stylesdir] (~/.fluxbox/styles)
+			[stylesdir] (~/.openbox/styles)
+                [end]
+        [separator]
+        [exec] (Run Command) {fbrun -nearmouse}
+        [exec] (Lock Screen) {xlock}
+        [restart] (Restart) {}
+        [exit] (Logout)
+[end]
+[end]

@@ -1,0 +1,111 @@
+toolbar:			flat
+toolbar.color:			black
+
+toolbar.button:			raised gradient eliptic
+toolbar.button.color:		#df3539
+toolbar.button.colorTo:		black
+toolbar.button.picColor:	black
+
+toolbar.button.pressed:		flat solid
+toolbar.button.pressed.color:	#abff00
+
+toolbar.label:			flat
+toolbar.label.color:		black
+toolbar.label.colorTo:		black
+toolbar.label.textColor:	#df3539
+
+toolbar.windowLabel:		pipecross gradient 
+toolbar.windowLabel.color:	red
+toolbar.windowLabel.colorTo:	black
+toolbar.windowLabel.textColor:	blue
+
+toolbar.clock:			flat
+toolbar.clock.color:		black
+toolbar.clock.colorTo:		black
+toolbar.clock.textColor:	#df3539
+
+toolbar.justify:		center
+toolbar.font:		        7x13
+#////////////////////// End of pasek dolny 
+
+menu.title:			pipecross gradient 
+menu.title.color:		black
+menu.title.colorTo:		black
+menu.title.textColor:		#ab0000
+menu.title.font:		-misc-fixed-medium-o-semicondensed--0-0-75-75-c-0-iso8859-2
+menu.title.justify:		center
+
+menu.frame:			flat 
+menu.frame.color:		black
+menu.frame.colorTo:		black
+menu.frame.textColor:		red
+menu.frame.disableColor:	green
+menu.frame.font:		9x15
+menu.frame.justify:		left
+
+menu.bullet.position:		right
+menu.bullet:			triangle
+
+menu.hilite:			pipecross gradient 
+menu.hilite.color:		red
+menu.hilite.colorTo:		black
+menu.hilite.textColor:		orange
+
+#/////////////////////////////////////////////////
+
+window.title.focus:		flat 
+window.title.focus.color:	#df3539
+
+window.title.unfocus:		flat 
+window.title.unfocus.color:	black
+
+window.label.focus:		pipecross gradient
+window.label.focus.color:	red
+window.label.focus.colorTo:	black
+window.label.focus.textColor:	#ff6778
+
+window.label.unfocus:		pipecross gradient
+window.label.unfocus.color:	#200000
+window.label.unfocus.colorTo:   black
+window.label.unfocus.textColor:	#700000
+
+window.button.focus:		raised gradient eliptic
+window.button.focus.color:	black
+window.button.focus.colorTo:	black
+window.button.focus.picColor:	orange
+
+window.button.unfocus:		flat solid
+window.button.unfocus.color:	black
+window.button.unfocus.picColor:	#600000
+
+window.button.pressed:		flat
+window.button.pressed.color:	#9fff41
+
+window.handle.focus:		raised crossdiagonal gradient
+window.handle.focus.color:	#980806
+window.handle.focus.colorTo:	black
+window.handle.unfocus:		flat solid
+window.handle.unfocus.color:	black
+
+window.grip.focus:		raised diagonal gradient
+window.grip.focus.color:	#300000
+window.grip.focus.colorTo:	red
+
+window.grip.unfocus:		flat 
+window.grip.unfocus.color:	black
+
+window.frame.focusColor:	#980806
+window.frame.unfocusColor:	black
+
+window.font:			lucidasanstypewriter-12
+window.justify:			center
+
+borderColor:			black
+
+bevelWidth:			1
+borderWidth:			1
+handleWidth:			4
+
+*textColor:			red
+*Font:				9x15
+rootCommand:        bsetbg -full  ~/blackbox/styles/BSD/tapeta/Cartoons-015.jpg
